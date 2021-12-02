@@ -8,7 +8,8 @@ body {
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #f5f5f5;
+  background-color: #067c24;
+  background: rgba(92, 80, 80, 0.7);
 }
 
 .form-signin {
@@ -16,23 +17,23 @@ body {
   max-width: 330px;
   padding: 15px;
   margin: auto;
-  position: relative;
+  background: rgba(54, 53, 53, 0.7);
 }
 
 .form-signin .form-floating:focus-within {
   z-index: 2;
 }
 
-.form-signin input[type="email"] {
-  margin-bottom: -1px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
+.form-signin input[type="email"],
+.form-signin input[type="password"],
+.form-signin input[type="text"]{
+  border: none;
+  border-radius: 0;
+  margin-bottom: 10px;
 }
 
-.form-signin input[type="password"] {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+button{
+  border-radius: 0;
 }
 
 .form-signin .signin{
