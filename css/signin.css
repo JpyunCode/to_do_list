@@ -8,8 +8,7 @@ body {
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #067c24;
-  background: rgba(92, 80, 80, 0.7);
+  background: linear-gradient(to bottom,rgba(104, 234, 204),rgba(73, 123, 232) 100%);
 }
 
 .form-signin {
@@ -17,7 +16,8 @@ body {
   max-width: 330px;
   padding: 15px;
   margin: auto;
-  background: rgba(54, 53, 53, 0.7);
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
 }
 
 .form-signin .form-floating:focus-within {
@@ -39,4 +39,16 @@ button{
 .form-signin .signin{
   text-decoration: none;
   padding: 0 20px;
+}
+
+.form-signin button{
+  border: none;
+  background: #8E49E8;
+}
+.form-signin a{
+  color: #8E49E8;
+}
+
+.form-signin a:hover{
+  color: blue;
 }

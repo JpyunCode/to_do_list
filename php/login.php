@@ -13,7 +13,7 @@ $nr = $queryusuario->num_rows;
 	
 if ($nr == 1)  
 { 
-    echo	"<script> alert('Usuario logueado.');window.location= '../index.html' </script>";
+    echo	"<script> alert('Usuario logueado.');window.location= '../main.html' </script>";
 }
 else
 {
